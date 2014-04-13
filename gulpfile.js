@@ -42,8 +42,8 @@ gulp.task('html', function() {
 	.pipe(watch(function(files){
 		return files.pipe(livereload())
 		.pipe(growler({
-				title: 'Yay',
-				message: 'Html task complete'
+			title: 'Yay',
+			message: 'Html task complete'
 		}));
 	}));
 	
