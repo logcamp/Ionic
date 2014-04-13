@@ -1,0 +1,8 @@
+node_modules/
+hooks/
+platforms/
+plugins/
+config.xml
+ionic.project
+.sass-cache/
+.*.swp
